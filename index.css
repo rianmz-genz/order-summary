@@ -1,0 +1,120 @@
+/* CODED BY Adrian Aji Septa*/
+
+:root {
+    --Pale-blue: hsl(225, 100%, 94%);
+    --Bright-blue: hsl(245, 75%, 52%);
+    --Very-pale-blue: hsl(225, 100%, 98%);
+    --Desaturated-blue: hsl(224, 23%, 55%);
+    --Dark-blue: hsl(223, 47%, 23%);
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/pattern-background-mobile.svg);
+    background-size: cover;
+    background-color: var(--Pale-blue);
+    background-position: bottom;
+    margin: 0 1.5rem;
+    min-height: calc(100vh - 0.1px);
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    background-color: white;
+    border-radius: 20px;
+  
+  }
+  
+  .header img {
+    width: 100%;
+    min-height: 240px;
+    border-radius: 20px 20px 0 0;
+  }
+  
+  .paragraph {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .paragraph h2 {
+    margin-bottom: 20px;
+    font-weight: 900;
+  }
+  
+  .paragraph p {
+    color: var(--Desaturated-blue);
+  }
+  
+  .plan {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    min-width: 300px;
+    background-color: var(--Very-pale-blue);
+    border-radius: 15px;
+  }
+  
+  .plan a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+  }
+  
+  
+  
+  .btn {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .btn button:first-child {
+    margin-bottom: 20px;
+    background-color: var(--Bright-blue);
+    border: none;
+    padding: 15px 40px 15px;
+    transition: 0.3s;
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+  }
+  
+  .btn button:first-child:hover {
+    opacity: 70%;
+  }
+  
+  .btn button:last-child {
+    border: none;
+    font-weight: 700;
+    background-color: white;
+  }
+  Footer
+  © 2022 GitHub, Inc.
+  Footer navigation
+  Terms
+  Privacy
+  Security
+  Status
+  Docs
+  Contact GitHub
+  Pricing
+  API
+  Training
+  Blog
+  About
+  
